@@ -1,0 +1,16 @@
+#first_heading 
+{
+    color: red;
+    font-size: 50px;
+}
+.second_heading{
+    color: green;
+    font-size: 20px;
+}
+:root{
+    --text-color: orange;
+
+}
+h1{
+    color: var(--text-color);
+}
